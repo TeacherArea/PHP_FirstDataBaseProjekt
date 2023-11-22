@@ -27,9 +27,7 @@ $feeds = mysqli_fetch_all($result, MYSQLI_ASSOC);
     </div>
   </div>
 
-  
- 
-<?php endforeach; ?>
+  <?php endforeach; ?>
 <div class="card mt-5" style="width: 18rem;">
   <img src="img/einstein.jpg" class="card-img-top" alt="Photo of Albert Einstein">
   <div class="card-body">
